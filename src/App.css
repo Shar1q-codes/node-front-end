@@ -2,37 +2,232 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*  header  */
+.blog-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blog-title span{
+  transform: rotate(-90deg);
+  background-color:  black;
+  height: 20px;
+  color: wheat;
+  margin-top: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navigations{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+}
+
+.navigations ul{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+/* --------------- Top Card----------- */
+.top-card-container{
+  
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin-left: 80px;
+}
+
+.left-container{
+  
+  border-radius: 10px;
+  height: 350px;
+  width: 500px;
+  margin-left: 30px;
+}
+
+.right-container{
+  
+  height: 350px;
+  width: 400px;
+}
+
+.top-img{
+  border-radius: 10px;
+  
+  height: 50%;
+}
+
+.bot-img{
+  border-radius: 10px;
+  margin-top: 4px;
+ 
+  height: 50%;
+}
+
+/* --------------- The Latest Section --------- */
+.the-latest-container{
+  
+  width: 80%;
+  
+  margin: 20px auto;
+}
+
+.latest-heading{
+  text-align: justify;
+  
+}
+
+hr{
+  width: 200px;
+  text-align: left;
+  margin-left: 0px;
+  margin-top: -16px;
+  /* height: 200px; */
+ 
+}
+
+
+.flex-box{
+  display: flex;
+  justify-content: space-around;
+}
+
+.the-latest-cards{
+  
+  height: 500px;
+  /* width: 33.3%; */
+  margin: 5px;
+}
+
+/* ---------------- Latest Article Section ----------- */
+.latest-article-container{
+  width: 100%;
+  
+  margin: 20px auto;
+}
+
+.latest-heading{
+  margin-left: 60px;
+}
+
+.latest-article-card-container{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.everywhere-card-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 1000px;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.everywhere-cards{
+  
+  height: 250px;
+  margin: 6px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ad{
+  background-image: url('https://pbs.twimg.com/media/C2iK9HgUQAAxqHK.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  margin-right: 0px;
+  margin: 3px;
+  height: 500px;
+}
+
+.everywhere-img{
+  height: 250px;
+  width: 400px;
+}
+
+.card-flex-box{
+  display: flex;
+
+}
+
+.img-div{
+  width: 25%;
+  margin-left: -20px;
+}
+
+.desc-div{
+  margin-left: 170px ;
+  
+}
+
+.link{
+  text-decoration: none;
+}
+
+.text{
+  color: black;
+}
+
+.top-img{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.top-img-txt{
+  margin-top: -100px;
+  color: black;
+  text-shadow: 0.8px 0.8px white;
+}
+
+.the-latest-cards{
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-img{
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.right-img{
+  height: 175px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.bot-img{
+  margin-top: -80px;
+}
+
+
+/* ----------------------------------------------------------- */
+.read-more-container{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.read-page-title{
+  font-size: 32px;
+}
+
+.read-page-pic{
+  height: 350px;
+  width: 600px;
+}
+
+.read-more-siren{
+  font-size: 38px;
+  font-weight: bolder;
+  margin-left: -300px;
+}
+
+.more-siren{
+  margin-left: -200px;  
 }
