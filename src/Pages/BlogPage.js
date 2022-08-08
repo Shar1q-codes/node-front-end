@@ -13,7 +13,7 @@ const BlogPage = ({category}) => {
     <div>
         <h1>{category}</h1>
         {
-            data.sort(()=>Math.random() - Math.random()).slice(5).filter((article)=>{
+            data.sort((arr)=>arr.length - 5).filter((article)=>{
                 return article.CategoryName === category
             })
             .map((n)=>(

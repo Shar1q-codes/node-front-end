@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div>
        <div>{
-            data.sort(()=>Math.random() - Math.random()).slice(0,1)
+            data.sort((arr)=>arr.length - 5).slice(0,1)
             .map((n)=>(
                 <TopCardContainer
                 key={n.id}
